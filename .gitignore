@@ -1,0 +1,49 @@
+# Diretórios e arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependências
+node_modules/
+venv/
+.env
+.env.*
+
+# Builds
+dist/
+build/
+out/
+
+# Arquivos temporários
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Testes e relatórios
+coverage/
+*.lcov
+
+# Banco de dados local
+*.sqlite
+*.sqlite3
+*.db
+
+# Arquivos do sistema operacional
+*.DS_Store
+*.Spotlight-V100
+*.Trashes
+
+# Outros
+package-lock.json
+pnpm-lock.yaml
